@@ -39,7 +39,9 @@
 
 
 
-
+html {
+	scroll-behavior: smooth;
+}
 
 
 
@@ -184,14 +186,6 @@ header .social li{
 header .social li:first-child{
 	margin: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /*		Hero section 		*/
@@ -585,7 +579,7 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+#tslider{
 	text-align: center!important;
 	position: relative!important;
 }
